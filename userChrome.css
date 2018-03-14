@@ -1,0 +1,66 @@
+:root:not([uidensity=compact]) #back-button>.toolbarbutton-icon {
+    background-color: initial !important;
+    border: initial !important;
+}
+
+#navigator-toolbox>toolbar:not(#toolbar-menubar):not(#TabsToolbar):not(#nav-bar) {
+    padding: 0px 4px 4px !important;
+}
+
+.tabbrowser-tab {
+    margin: 0 -25px 0 0px !important;
+}
+
+.tab-background {
+    background: #d0d0d0;
+    /*   border:1px solid #ccc !important; */
+    margin: 0 15px !important;
+    box-shadow: 0 0 2px #fff inset !important;
+    -webkit-transform: perspective(100px) rotateX(30deg) !important;
+    -moz-transform: perspective(100px) rotateX(30deg) !important;
+}
+
+.tab-content {
+    padding: 0 25px !important;
+}
+
+.tab-close-button.close-icon {
+    fill: initial;
+}
+
+.tabs-newtab-button.toolbarbutton-1 {
+    margin-left: 20px !important;
+    ;
+}
+
+.titlebar-placeholder[type="pre-tabs"] {
+    border-inline-end: initial !important;
+    ;
+}
+
+#tabbrowser-tabs:not([movingtab])>.tabbrowser-tab[beforeselected-visible]::after,
+#tabbrowser-tabs[movingtab]>.tabbrowser-tab[visuallyselected]::before,
+.tabbrowser-tab[visuallyselected]::after {
+    border-color: var(--tabs-border-color);
+    margin-top: 0;
+    margin-bottom: 1px;
+    opacity: 1;
+    border: none !important;
+}
+
+[tabsintitlebar]:root:not([extradragspace]) .tabbrowser-tab::after,
+.tabbrowser-tab:hover::after,
+#tabbrowser-tabs:not([movingtab])>.tabbrowser-tab[beforehovered]::after {
+    border: none !important;
+}
+
+.tab-text.tab-label {
+    text-shadow: initial !important;
+    ;
+    /* color: grey !important; */
+    font-style: unset;
+    text-decoration: none !important;
+    -webkit-font-smoothing: antialiased !important;
+    ;
+    -moz-osx-font-smoothing: grayscale !important;
+}

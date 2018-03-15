@@ -3,39 +3,50 @@
     border: initial !important;
 }
 
+.tabbrowser-tab::after,
+.tabbrowser-tab::before {
+    display: none !important;
+}
+
 #navigator-toolbox>toolbar:not(#toolbar-menubar):not(#TabsToolbar):not(#nav-bar) {
     padding: 0px 4px 4px !important;
 }
 
 .tabbrowser-tab {
-    margin: 0 -25px 0 0px !important;
+    margin: 0 -28px 0 0px !important;
 }
 
 .tab-background {
-    background: #d0d0d0;
-    /*   border:1px solid #ccc !important; */
+    background: #74787b;
+    border: none !important;
+    border-left: .1px solid #262626 !important;
     margin: 0 15px !important;
-    box-shadow: 0 0 2px #fff inset !important;
     -webkit-transform: perspective(100px) rotateX(30deg) !important;
     -moz-transform: perspective(100px) rotateX(30deg) !important;
+}
+
+.tabbrowser-tab[selected="true"] .tab-background {
+    background: #f2f2f2 !important;
+}
+
+.tabbrowser-tab[selected="true"] .tab-text.tab-label {
+    color: black !important;
+}
+
+.tab-line {
+    display: none !important;
 }
 
 .tab-content {
     padding: 0 25px !important;
 }
 
-.tab-close-button.close-icon {
-    fill: initial;
-}
-
 .tabs-newtab-button.toolbarbutton-1 {
     margin-left: 20px !important;
-    ;
 }
 
 .titlebar-placeholder[type="pre-tabs"] {
     border-inline-end: initial !important;
-    ;
 }
 
 #tabbrowser-tabs:not([movingtab])>.tabbrowser-tab[beforeselected-visible]::after,
@@ -56,11 +67,9 @@
 
 .tab-text.tab-label {
     text-shadow: initial !important;
-    ;
-    /* color: grey !important; */
+    color: white !important;
     font-style: unset;
     text-decoration: none !important;
     -webkit-font-smoothing: antialiased !important;
-    ;
     -moz-osx-font-smoothing: grayscale !important;
 }

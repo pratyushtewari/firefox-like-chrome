@@ -12,4 +12,4 @@ You may need to create the `chrome` folder and `userChrome.css` file yourself. I
 
 Screenshot on Windows 10 with Firefox Quantum 64:
 
-![Dark mode screenshot](darkmode/darkmode.png)
+![Dark mode screenshot](darkmode.png)

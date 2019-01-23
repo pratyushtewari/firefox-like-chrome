@@ -1,4 +1,4 @@
-This userChrome file changes the tabs in Firefox to look similar to the second iteration of Chrome's tabs (trapezoid style). It is designed to match the Firefox's default dark mode theme.
+This userChrome file changes the tabs in Firefox to look similar to the second iteration of Chrome's tabs (trapezoid style). It is designed to match Firefox's default dark mode theme.
 
 * * *
 

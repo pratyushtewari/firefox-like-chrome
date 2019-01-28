@@ -1,4 +1,6 @@
-If you want to style the tree-style-tabs to look like below use the High Contrast Theme and add the follwoing css to the custom overwrite
+If you want to style the [tree-style-tabs](https://github.com/piroor/treestyletab) to look like below use the High Contrast Theme and add the follwoing css to the custom overwrite
+
+![tree-style-tabs](./tree-style-tab.png)
 
 ```
 /* Show title of unread tabs with red and italic font */

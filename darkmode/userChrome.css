@@ -1,0 +1,115 @@
+:root:not([uidensity=compact]) #back-button > .toolbarbutton-icon {
+  background-color: initial !important;
+  border: initial !important;
+}
+
+.tabbrowser-tab::after,
+.tabbrowser-tab::before {
+  display: none !important;
+}
+
+#navigator-toolbox > toolbar:not(#toolbar-menubar):not(#TabsToolbar):not(#nav-bar) {
+  padding: 0px 4px 4px !important;
+}
+
+.tabbrowser-tab {
+  margin: 0px -28px 0px 0px !important;
+}
+
+.tab-background {
+  background: #222;
+  background-clip: border-box;
+  border: 1px solid #262626 !important;
+  border-width: 0px 1px !important;
+  border-radius: 4px 4px 0px 0px;
+  margin: 0px 15px !important;
+  outline: none !important;
+  transform: perspective(100px) rotateX(30deg) !important;
+}
+
+#TabsToolbar[brighttext] > #tabbrowser-tabs > .tabbrowser-tab:hover > .tab-stack > .tab-background:not([selected="true"]) {
+  background-color: #383838 !important;
+}
+
+.tabbrowser-tab[selected="true"] .tab-background {
+  background: #333 !important;
+}
+.tabbrowser-tab[selected="true"]:hover .tab-background {
+  background: #444 !important;
+}
+
+.tabbrowser-tab[selected="true"] .tab-text.tab-label {
+  color: #CCC !important;
+}
+
+.tab-line {
+  display: none !important;
+}
+
+.tab-content {
+  padding: 0px 25px !important;
+}
+
+.tabs-newtab-button.toolbarbutton-1 {
+  margin-left: 20px !important;
+}
+
+.titlebar-placeholder[type="pre-tabs"] {
+  border-inline-end: initial !important;
+}
+
+#tabbrowser-tabs:not([movingtab]) > .tabbrowser-tab[beforeselected-visible]::after,
+#tabbrowser-tabs[movingtab] > .tabbrowser-tab[visuallyselected]::before,
+.tabbrowser-tab[visuallyselected]::after {
+  border-color: var(--tabs-border-color);
+  border: none !important;
+  margin-top: 0px;
+  margin-bottom: 1px;
+  opacity: 1.0;
+}
+
+[tabsintitlebar]:root:not([extradragspace]) .tabbrowser-tab::after,
+.tabbrowser-tab:hover::after,
+#tabbrowser-tabs:not([movingtab]) > .tabbrowser-tab[beforehovered]::after {
+  border: none !important;
+}
+
+.tab-text.tab-label {
+  text-shadow: initial !important;
+  color: #CCC !important;
+  font-style: unset;
+  text-decoration: none !important;
+}
+
+.tabbrowser-tab:hover .tab-text.tab-label {
+  color: #EEE !important;
+  text-shadow: none !important;
+}
+
+.tabbrowser-tab .tab-close-button.close-icon {
+  width: 16px;
+}
+.tabbrowser-tab .tab-close-button.close-icon:hover {
+  background: #932E2E;
+  border-radius: 12px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.titlebar-placeholder[type="pre-tabs"],
+.titlebar-placeholder[type="post-tabs"] {
+  display: none;
+  width: 0px;
+}
+
+#TabsToolbar .toolbarbutton-1 {
+  width: 17px !important;
+  padding-left: 4px !important;
+}
+#TabsToolbar .toolbarbutton-1 .toolbarbutton-icon {
+  width: auto !important;
+  height: 24px !important;
+  border-radius: 20px !important;
+  margin: 0px !important;
+  padding: 4px !important;
+}

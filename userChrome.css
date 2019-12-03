@@ -49,6 +49,11 @@
     padding: 0 25px !important;
   }
   
+  #tabs-newtab-button {
+    margin-left: 20px !important;
+  }
+
+  /* for backward compatibility */
   .tabs-newtab-button.toolbarbutton-1 {
     margin-left: 20px !important;
   }

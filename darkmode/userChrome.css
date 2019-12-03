@@ -50,7 +50,10 @@
   padding: 0px 25px !important;
 }
 
-.tabs-newtab-button.toolbarbutton-1 {
+/* FF 57-69 */
+.tabs-newtab-button.toolbarbutton-1,
+/* FF 70+ */
+#tabs-newtab-button {
   margin-left: 20px !important;
 }
 

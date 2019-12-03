@@ -1,5 +1,9 @@
 This userChrome file changes the tabs in Firefox to look similar to the second iteration of Chrome's tabs (trapezoid style). It is designed to match Firefox's default dark mode theme.
 
+## Preface
+
+To allow custom themes (`userChrome.css` and `userContent.css`) in FireFox 69+ go to `about:config` in a new tab and turn on the `toolkit.legacyUserProfileCustomizations.stylesheets` setting.
+
 * * *
 
 The location for your userChrome file will be something like this:

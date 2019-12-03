@@ -1,5 +1,10 @@
 # firefox-like-chrome
+
 This is the userChrome.css that can be used to theme Firfox Quantum 59.0 or later versions to look like chrome
+
+## Preface
+
+To allow custom themes (`userChrome.css` and `userContent.css`) in FireFox 69+ go to `about:config` in a new tab and turn on the `toolkit.legacyUserProfileCustomizations.stylesheets` setting.
 
 
 <h6 align='center'>Tab Bar</h6>

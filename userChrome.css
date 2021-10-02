@@ -8,6 +8,8 @@
     border: initial !important;
   }
 
+  #TabsToolbar { height: 36px !important; }
+
   .tabbrowser-tab:not([pinned]) {
     min-width: var(--my-tab-min-width) !important;
   }

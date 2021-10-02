@@ -1,6 +1,15 @@
+/* Set minimum width below which tabs will not shrink (minimum 22px) */
+:root {
+  --my-tab-min-width: 110px;
+}
+
 :root:not([uidensity=compact]) #back-button>.toolbarbutton-icon {
     background-color: initial !important;
     border: initial !important;
+  }
+
+  .tabbrowser-tab:not([pinned]) {
+    min-width: var(--my-tab-min-width) !important;
   }
   
   .tabbrowser-tab::after,
